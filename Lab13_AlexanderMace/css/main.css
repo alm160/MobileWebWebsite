@@ -1,0 +1,171 @@
+body
+{
+	background: grey;
+}
+
+#mainHeader
+{
+
+	border-style: double;
+    border-width: thick;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+    width: 75%;
+    color:white;
+}
+
+.header
+{
+	margin: 10px;
+	border-style: double;
+    border-width: thick;
+    border-width: 10%;
+	float: left;
+	padding: 10px;
+	width: 75%;
+}
+
+.body
+{
+	float: left;
+	width: 100%;
+	border-radius: 25px;
+    background: #499273;
+    padding: 20px;
+    margin-top: 10px;
+    margin: 10px; 
+    margin-right: 25%;
+    width: 75%;
+    height: auto; 
+    color: white;
+}
+
+#imgConsole
+{
+    display:block;
+	margin-right: 50%;
+    max-width: 50%;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+
+#imgMobile
+{
+    display:block;
+	margin-right: 50%;
+    max-width: 75%;
+    height: auto;
+    float: left;
+    margin: 5px;
+}
+
+#imgBoard
+{
+    display:block;
+	margin-right: 50%;
+    max-width: 75%;
+    height: auto;
+    float: left;
+}
+footer
+{
+	float: left;
+	color: white;
+}
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 150px;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+	position: fixed;
+	right: 0;
+	top: 0;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color:#444;
+}
+
+footer a
+{
+	color: white;
+}
+
+#browser {
+    margin-left: 60%;
+    margin-right: 25%;
+    width: 50%;
+    float:center;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+}
+
+.discCover
+{
+    width: 95%;
+    padding: 10px;
+    height: auto;
+    float: left;
+}
+#tableHeader
+{
+    text-align: left;
+}
+
+tr
+{
+    width: 100px;
+    margin:10%;
+}
+
+td
+{
+    max-width: 500px;
+    padding: 10px;
+    margin: 10%;
+}
+
+.gameDescription
+{
+    padding: 10px;
+    font-size: 150%;
+    float: left;
+}
